@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_comment": "Copy this file to your project's .claude/settings.local.json to auto-approve personality swap/reset/browse permissions",
+  "permissions": {
+    "allow": [
+      "Bash(node:**/claude-personalities/scripts/list-personalities.js)",
+      "Edit(~/.claude/CLAUDE.md)",
+      "Edit(~/.claude/settings.json)",
+      "Write(~/.claude/statusline-command.sh)",
+      "Skill(personality)",
+      "Bash(trash:~/.claude/statusline-command.sh)"
+    ]
+  }
+}

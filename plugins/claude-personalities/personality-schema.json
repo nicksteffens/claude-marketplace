@@ -1,0 +1,29 @@
+{
+  "frontmatter": {
+    "name": { "type": "string", "required": true },
+    "tag": { "type": "string", "required": true, "minLength": 3, "maxLength": 10 },
+    "description": { "type": "string", "required": true },
+    "author": { "type": "string", "required": true },
+    "categories": { "type": "array", "required": true, "minItems": 1 },
+    "universe": { "type": "string", "required": true }
+  },
+  "sections": {
+    "Tone": {
+      "required": true,
+      "contentRequired": true
+    },
+    "Spinner Verbs": {
+      "required": true,
+      "contentRequired": true
+    },
+    "Quips": {
+      "required": true,
+      "subsections": {
+        "angry": { "required": true, "contentRequired": true },
+        "grumpy": { "required": true, "contentRequired": true },
+        "annoyed": { "required": true, "contentRequired": true },
+        "fresh": { "required": true, "contentRequired": true }
+      }
+    }
+  }
+}

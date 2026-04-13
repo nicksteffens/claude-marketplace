@@ -1,0 +1,65 @@
+name: Bug Report
+description: Something isn't working right with the plugin or a personality
+title: "fix: [SHORT DESCRIPTION]"
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Report a Bug
+
+        Found something broken? Let us know.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What's affected?
+      options:
+        - Personality swap (/swap command)
+        - Statusline / quips
+        - Spinner verbs
+        - Browse command
+        - Reset command
+        - Update command
+        - Plugin installation
+        - Validation / CI
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: personality
+    attributes:
+      label: Which personality? (if applicable)
+      placeholder: "e.g., Chopper, JARVIS, all of them"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug. Include error messages if you have them.
+      placeholder: |
+        When I run /claude-personalities:swap and pick Marvin, the
+        statusline shows [undefined] instead of [MARVN]...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened?
+      placeholder: "The statusline should show [MARVN] with Marvin's quips"
+    validations:
+      required: true
+
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code version
+      description: Run `claude --version` to find this
+      placeholder: "e.g., 2.1.79"
+    validations:
+      required: false

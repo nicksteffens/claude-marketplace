@@ -1,0 +1,26 @@
+name: Validate Personalities
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Get changed personality files
+        id: changed
+        run: |
+          FILES=$(gh pr diff ${{ github.event.pull_request.number }} --name-only | grep '^plugins/claude-personalities/personalities/.*\.md$' | tr '\n' ' ' || true)
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate personality files
+        if: steps.changed.outputs.files != ''
+        run: node plugins/claude-personalities/scripts/validate-personalities.js ${{ steps.changed.outputs.files }}

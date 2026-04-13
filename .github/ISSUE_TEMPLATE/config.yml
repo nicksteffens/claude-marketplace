@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Build a personality yourself
+    url: https://github.com/nicksteffens/claude-marketplace/blob/main/plugins/claude-personalities/CONTRIBUTING.md
+    about: Want to create a personality? Check out the contributing guide and template.

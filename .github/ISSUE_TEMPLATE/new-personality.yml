@@ -1,0 +1,62 @@
+name: New Personality Request
+description: Suggest a character personality to add to the collection
+title: "feat: add [CHARACTER NAME] personality"
+labels:
+  - personality-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Suggest a Personality
+
+        Want a character added to the collection? Tell us who and why they'd make a great Claude Code companion.
+
+        You can also build it yourself! Run `/claude-personalities:create` for a guided wizard, or see [CONTRIBUTING.md](https://github.com/nicksteffens/claude-marketplace/blob/main/plugins/claude-personalities/CONTRIBUTING.md).
+
+  - type: input
+    id: character
+    attributes:
+      label: Character Name
+      description: Who is the character?
+      placeholder: "e.g., GLaDOS, Ron Swanson, Gandalf"
+    validations:
+      required: true
+
+  - type: input
+    id: universe
+    attributes:
+      label: Universe / Franchise
+      description: Where are they from?
+      placeholder: "e.g., Portal, Parks & Rec, Lord of the Rings"
+    validations:
+      required: true
+
+  - type: textarea
+    id: vibe
+    attributes:
+      label: Personality Vibe
+      description: What makes this character's voice distinctive? How should they sound as a code assistant?
+      placeholder: |
+        e.g., GLaDOS would be passive-aggressive, obsessed with testing,
+        promises cake that never comes, makes backhanded compliments
+        about your code quality...
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample-quips
+    attributes:
+      label: Sample Quips (optional)
+      description: Got some ideas for statusline quips? Drop a few examples.
+      placeholder: |
+        - "The test results are in. I'm not angry. Just disappointed"
+        - "I see you've made another 'happy little accident' in production"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to build this personality myself and submit a PR

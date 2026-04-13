@@ -1,0 +1,24 @@
+plugins/claude-personalities/PERSONALITIES.md
+  eefbf3fffc13c743 3,22,34,65-68,114-116,160
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "3fa0c2b39922b6d3fad15dc4047175b0558c52d0",
+  "prompts": {
+    "eefbf3fffc13c743": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4d473bfb-09d9-4ebc-91ae-9f4e773dfb72",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Nicklas Steffens",
+      "messages": [],
+      "total_additions": 12,
+      "total_deletions": 2,
+      "accepted_lines": 12,
+      "overriden_lines": 0,
+      "messages_url": "https://git-ai.k8s.misrv.net/cas/f088ae9eb97b1da64d7c08f575939b3cf91b873850a0c0d7066605023da388e6"
+    }
+  }
+}

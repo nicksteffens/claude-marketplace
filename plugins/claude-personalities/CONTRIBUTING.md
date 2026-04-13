@@ -5,9 +5,9 @@ Want to add a character personality to Claude Code? Here's how.
 ## Quick Start
 
 1. Fork this repo
-2. Copy the template: `cp templates/personality.md personalities/my-character.md`
+2. Copy the template: `cp plugins/claude-personalities/templates/personality.md plugins/claude-personalities/personalities/my-character.md`
 3. Fill in the template
-4. Validate: `npm test personalities/my-character.md`
+4. Validate: `node plugins/claude-personalities/scripts/validate-personalities.js plugins/claude-personalities/personalities/my-character.md`
 5. Submit a PR with a conventional commit title (e.g., `feat: add GLaDOS personality`)
 
 ## Personality Template

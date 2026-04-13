@@ -205,7 +205,7 @@ function main() {
   let files = process.argv.slice(2);
 
   if (files.length === 0) {
-    const dir = path.join(process.cwd(), 'personalities');
+    const dir = path.join(__dirname, '..', 'personalities');
     if (!fs.existsSync(dir)) {
       console.error('No personalities/ directory found and no files specified.');
       process.exit(1);
@@ -240,7 +240,7 @@ function main() {
   }
 
   // Check for duplicate tags across all personality files
-  const personalitiesDir = path.join(process.cwd(), 'personalities');
+  const personalitiesDir = path.join(__dirname, '..', 'personalities');
   const dupeErrors = checkDuplicateTags(personalitiesDir);
   if (dupeErrors.length > 0) {
     hasErrors = true;

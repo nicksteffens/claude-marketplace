@@ -1,0 +1,19 @@
+{
+  "name": "claude-personalities",
+  "description": "Community personality packs for Claude Code — swap tone, statusline, and spinner verbs",
+  "version": "2.0.0",
+  "author": {
+    "name": "Nick Steffens",
+    "url": "https://github.com/nicksteffens"
+  },
+  "homepage": "https://github.com/nicksteffens/claude-marketplace",
+  "repository": "https://github.com/nicksteffens/claude-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "personality",
+    "theme",
+    "character",
+    "tone",
+    "statusline"
+  ]
+}

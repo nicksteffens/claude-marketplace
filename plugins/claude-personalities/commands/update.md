@@ -33,7 +33,7 @@ claude plugin marketplace update
 4. **Update the installed plugin**: Execute the following command:
 
 ```bash
-claude plugin update claude-personalities@claude-personalities
+claude plugin update claude-personalities@nicksteffens
 ```
 
 5. **List new personalities**: Find the list-personalities script again (glob fresh — the path will have a new version number after update). Run it and compare against the snapshot from step 1. When comparing, filter both lists to `source === "official"` only — custom personalities are unaffected by plugin updates and should not appear in the diff. Display results as a table:

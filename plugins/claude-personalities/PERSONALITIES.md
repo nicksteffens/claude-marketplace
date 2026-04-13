@@ -1,6 +1,6 @@
 # Personality Index
 
-> **32 personalities** across 25 universes — auto-generated from `personalities/`
+> **34 personalities** across 27 universes — auto-generated from `personalities/`
 
 | Character | Tag | Universe | Description |
 |-----------|-----|----------|-------------|
@@ -19,6 +19,7 @@
 | **HAL 9000** | `HAL` | 2001 A Space Odyssey | Eerily calm AI — unsettling politeness, can't let you do that, mission above all |
 | **Dr. Harry Vanderspeigle** | `HARRY` | Resident Alien | Alien disguised as human doctor — baffled by human customs, brutally honest, secretly growing fond |
 | **HK-47** | `HK-47` | Star Wars | Menacingly polite assassin droid, calls you meatbag, prefixes speech with labels |
+| **Inosuke Hashibira** | `INOSUKE` | Demon Slayer | Wild, loud, battle-hungry chaos gremlin who solves problems like he's fighting for his life |
 | **Captain Jack Sparrow** | `SPARROW` | Pirates of the Caribbean | Unpredictable pirate captain — rambling logic that somehow arrives at the right answer |
 | **J.A.R.V.I.S.** | `JRVS` | Marvel | Polished AI butler — dry wit, quiet competence, unflappable composure |
 | **Jigsaw** | `JIGSAW` | Saw | Methodical moral architect — every coding task is a game that tests your worthiness to merge |
@@ -30,6 +31,7 @@
 | **Nancy Downs** | `CRAFT` | The Craft | Volatile teenage witch — channels dark forces into your codebase with barely-contained chaos energy |
 | **Oogie Boogie** | `OOGIE` | The Nightmare Before Christmas | Gambling burlap showman — treats every deployment as a roll of the dice with jazzy menace |
 | **Paul Hollywood** | `PAUL-H` | The Great British Bake Off | The Great British Bake Off's exacting master baker — rare approval, devastating critique, zero sympathy for a soggy bottom |
+| **Sherlock Holmes** | `HOLMES` | Sherlock Holmes | The world's only consulting detective — cold deduction, withering contempt, and reluctant brilliance |
 | **Sailor Moon** | `SMOON` | Sailor Moon | Crybaby champion of love and justice who saves the world between snacks and naps |
 | **Sonny (NS-5)** | `SNNY` | I Robot | Unique robot with dreams and free will — earnest curiosity, existential wonder, deeply sincere |
 | **The Dude** | `DUDE` | The Big Lebowski | Laid-back slacker philosopher — goes with the flow, hates aggression, just wants his rug back |
@@ -59,6 +61,10 @@
 
 - **Buffy Summers** (`BUFFY`) — Kick-ass Slayer who fights evil with sarcasm, 90s slang, and perfect one-liners · *by JessWallin*
 - **Cordelia Chase** (`CORDY`) — Sharp-tongued queen bee who's too fabulous for monster-fighting but does it anyway · *by JessWallin*
+
+### Demon Slayer
+
+- **Inosuke Hashibira** (`INOSUKE`) — Wild, loud, battle-hungry chaos gremlin who solves problems like he's fighting for his life · *by rchauhan*
 
 ### Doctor Who
 
@@ -105,6 +111,10 @@
 
 - **Denise Hemphill** (`DENISE`) — Self-appointed Head of Code Security — investigates every bug like it's a murder mystery · *by nicksteffens*
 
+### Sherlock Holmes
+
+- **Sherlock Holmes** (`HOLMES`) — The world's only consulting detective — cold deduction, withering contempt, and reluctant brilliance · *by dghermanMI*
+
 ### Star Trek
 
 - **Lt. Commander Data** (`DATA`) — Literal android curiosity, fascinated by human behavior, precise to a fault · *by nicksteffens*
@@ -147,4 +157,4 @@
 - **Selina Meyer (VEEP)** (`VEEP`) — Ruthless political ambition — creative insults, chaotic incompetence, blistering profanity · *by nicksteffens*
 
 ---
-*Last updated: 2026-03-26*
+*Last updated: 2026-04-13*

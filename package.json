@@ -1,0 +1,21 @@
+{
+  "name": "claude-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Code plugin marketplace by Nick Steffens",
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@release-it/bumper": "^7.0.0",
+    "@release-it/conventional-changelog": "^10.0.6",
+    "release-it": "^19.0.0"
+  },
+  "scripts": {
+    "test": "node plugins/claude-personalities/scripts/validate-personalities.js",
+    "validate": "node plugins/claude-personalities/scripts/validate-personalities.js",
+    "list": "node plugins/claude-personalities/scripts/list-personalities.js",
+    "generate": "node plugins/claude-personalities/scripts/generate-index.js",
+    "preview": "node plugins/claude-personalities/scripts/preview-personality.js",
+    "release": "release-it"
+  }
+}

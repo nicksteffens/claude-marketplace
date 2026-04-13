@@ -1,0 +1,20 @@
+{
+  "name": "nicksteffens",
+  "description": "Claude Code plugins by Nick Steffens",
+  "author": "Nick Steffens",
+  "owner": {
+    "name": "Nick Steffens"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Nick Steffens"
+  },
+  "plugins": [
+    {
+      "name": "claude-personalities",
+      "source": "./plugins/claude-personalities",
+      "description": "Community personality packs for Claude Code — swap tone, statusline, and spinner verbs",
+      "version": "2.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

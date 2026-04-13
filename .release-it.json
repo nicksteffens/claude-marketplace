@@ -1,0 +1,25 @@
+{
+  "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": false,
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "conventionalcommits",
+      "infile": false
+    },
+    "@release-it/bumper": {
+      "in": "package.json",
+      "out": [
+        "package.json",
+        ".claude-plugin/marketplace.json",
+        "plugins/claude-personalities/.claude-plugin/plugin.json"
+      ]
+    }
+  }
+}

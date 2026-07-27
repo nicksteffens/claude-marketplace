@@ -1,0 +1,22 @@
+{
+  "name": "host-html",
+  "description": "Preview raw HTML on a throwaway local server — get a browser link and a phone QR code (macOS only)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nick Steffens",
+    "url": "https://github.com/nicksteffens"
+  },
+  "homepage": "https://github.com/nicksteffens/claude-marketplace",
+  "repository": "https://github.com/nicksteffens/claude-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "html",
+    "preview",
+    "http-server",
+    "qr-code",
+    "localhost",
+    "mobile-testing",
+    "email",
+    "macos"
+  ]
+}

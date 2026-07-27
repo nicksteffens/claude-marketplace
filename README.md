@@ -23,6 +23,7 @@ Inside any Claude Code session:
 | Plugin | Description | Install |
 |--------|-------------|---------|
 | **[claude-personalities](plugins/claude-personalities/)** | Community character personalities — swap tone, statusline, and spinner verbs | `/plugin install claude-personalities@nicksteffens` |
+| **[host-html](plugins/host-html/)** | Preview raw HTML on a throwaway local server — browser link + phone QR (macOS only) | `/plugin install host-html@nicksteffens` |
 
 ## Contributing
 
